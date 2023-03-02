@@ -32,18 +32,18 @@ pip install slack
 ```
 
 Edit the top of bot.py with the following structure with your api info: 
-'''
+``````
 SLACK_BOT_TOKEN = "xoxb-0000000000000000000000000000"
 SLACK_APP_TOKEN = "xapp-0000000000000000000000000000000000000000000000000000000000000000000"
 OPENAI_API_KEY  = "sk-000000000000000000000000000"
-'''
+```
 Replace the slack_bot_token, slack_app_token, and openai_api_key values with your own tokens and key.
 
 Run the bot.
 
-'''
+```
 python3 bot.py
-'''
+```
 
 ### Usage
 Once the bot is running, it will listen for messages in channels and direct messages. When it receives a message, it will generate a response using OpenAI's GPT-3 and post the response in the same channel or direct message.
