@@ -19,9 +19,9 @@ Before you can use this bot, you will need:
 Clone the repository to your local machine.
 
 ```
-git clone https://github.com/example/slack-bot-with-openai-gpt3.git
+git clone https://github.com/robertogalan/ChatGPT-Slack-Bot.git
 ```
-
+ 
 Install the required Python packages.
 
 ```
